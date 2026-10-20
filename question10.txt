@@ -1,0 +1,32 @@
+Question Title: The Internship Project Setup
+
+Question Link:
+https://my.newtonschool.co/playground/code/5i36axzh7cl2?lecture_hash=mi7y4g3am46y
+
+Solution:
+
+cd client-app
+git init
+echo "abc" >> index.html
+echo "bcd" >> app.js
+git add index.html app.js
+git commit -m "Initial client files"
+git remote add origin https://github.com/startup/client-app.git
+git push -u origin main
+git log
+
+Approach:
+
+1. First as stated in question navigate into client-app.I used cd client-app
+
+2. Then initialise git using git init.
+
+3. After that append any random content into index.html and app.js
+
+4. Now stage and commit both of the file with same message using git add and git commit and -m as option for a meaningful message
+
+5. After that connect the given remote directory to our local directory using git remote add origin <remote_link>
+
+6. Finally pushed both commited file to GitHub using git push -u origin main
+
+7. Lastly use git log stated in question.
